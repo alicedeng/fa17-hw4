@@ -1,0 +1,19 @@
+<% @users.each do |u| %>
+	<%= "name: #{u.name}" %>
+	<%= "email: #{u.email}" %>
+	<%= "age: #{u.age}" %>
+<% end %>
+
+<br>
+
+<% @cats.each do |c| %>
+	<%= "name: #{c.name}" %>
+<%end%>
+
+<br>
+
+<% @todos.each do |todo| %>
+	<%= "tasks: #{todo.tasks}" %>
+	<%= "finished: #{todo.finished}" %>
+
+<% end %>
